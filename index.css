@@ -1,16 +1,22 @@
-body{
-  color: blue;
+body {
+  background-color: gainsboro;
 }
 
-h1 {
-  color: green;
+.judul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
-h2 {
-  text-indent: 50px;
-  color: blueviolet;
+.deskripsi {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 28px;
+  font-size:medium ;
 }
 
-p{
-  font-family: 'Times New Roman', Times, serif;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 35px;
 }
